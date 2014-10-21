@@ -1,0 +1,32 @@
+﻿Build started 1/19/2014 9:13:02 AM.
+     1>Project "C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\gli.vcxproj" on node 3 (build target(s)).
+     1>PrepareForBuild:
+         Creating directory "C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\Debug\".
+       InitializeBuildStatus:
+         Creating "gli.dir\Debug\gli.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         Building Custom Rule C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/CMakeLists.txt
+         CMake does not need to re-run because C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\CMakeFiles\generate.stamp is up-to-date.
+       ClCompile:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/." /I"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/external/glm-0.9.5.1" /I"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/.." /Zi /nologo /W3 /WX- /Od /Ob0 /Oy- /D WIN32 /D _WINDOWS /D _DEBUG /D _CRT_SECURE_NO_WARNINGS /D "CMAKE_INTDIR=\"Debug\"" /D _MBCS /Gm- /EHsc /RTC1 /MDd /GS /fp:precise /Za /Zc:wchar_t /Zc:forScope /GR /Fo"gli.dir\Debug\\" /Fd"gli.dir\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt core\dummy.cpp
+         dummy.cpp
+       ManifestResourceCompile:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"gli.dir\Debug\gli.exe.embed.manifest.res" gli.dir\Debug\gli_manifest.rc 
+       Link:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\Debug\gli.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"gli.dir\Debug\gli.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/Debug/gli.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/Debug/gli.lib" /MACHINE:X86 gli.dir\Debug\gli.exe.embed.manifest.res
+         gli.dir\Debug\dummy.obj  /machine:X86 /debug 
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /out:"gli.dir\Debug\gli.exe.embed.manifest" /manifest gli.dir\Debug\gli.exe.intermediate.manifest
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\rc.exe /nologo /fo"gli.dir\Debug\gli.exe.embed.manifest.res" gli.dir\Debug\gli_manifest.rc 
+       LinkEmbedManifest:
+         c:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\Debug\gli.exe" /INCREMENTAL /NOLOGO kernel32.lib user32.lib gdi32.lib winspool.lib shell32.lib ole32.lib oleaut32.lib uuid.lib comdlg32.lib advapi32.lib /MANIFEST /ManifestFile:"gli.dir\Debug\gli.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/Debug/gli.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli/Debug/gli.lib" /MACHINE:X86 gli.dir\Debug\gli.exe.embed.manifest.res
+         gli.dir\Debug\dummy.obj  /machine:X86 /debug 
+         gli.vcxproj -> C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\Debug\gli.exe
+       FinalizeBuildStatus:
+         Deleting file "gli.dir\Debug\gli.unsuccessfulbuild".
+         Touching "gli.dir\Debug\gli.lastbuildstate".
+     1>Done Building Project "C:\cygwin64\home\mshafae\tmpspace\openglkit\win_build\gli-0.5.1.0\gli\gli.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:01.34
