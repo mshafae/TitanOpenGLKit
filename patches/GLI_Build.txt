@@ -1,0 +1,10 @@
+--- Apple ---
+
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx . && make all
+
+and then
+
+mv gli ../../TitanOpenGLKit_osx/include/
+
+--- Windows ---
+No notes at this time

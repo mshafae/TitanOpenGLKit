@@ -1,0 +1,9 @@
+
+--- Apple ---
+unpack
+patch -p 1 < ../../patches/glew_1_11_0.patch
+make 
+make install
+
+--- Windows ---
+No notes at this time
