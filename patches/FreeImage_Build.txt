@@ -1,0 +1,8 @@
+--- Apple Build ---
+Apply patch
+patch -p1  < ../FreeImage3160.patch
+
+LibJXR has been entirely disabled for Apple Builds
+
+--- Win32 Build ---
+No notes as of now

@@ -1,0 +1,14 @@
+
+-- Apple --
+
+cmake -G "Xcode"
+open xcode project
+build
+
+cp ./src/Debug/libglfw3.a ../../TitanOpenGLKit_osx/lib/
+cp -r include/GLFW ../../TitanOpenGLKit_osx/include/
+
+
+-- Windows --
+
+No notes at the moment
