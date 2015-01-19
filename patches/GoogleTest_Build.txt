@@ -1,0 +1,13 @@
+--- Apple ---
+Make sure `python` is python 2!
+  sudo port select python python27
+unpack
+mkdir build
+cd build
+cmake ${GTESTDIR}
+make
+mv *.a ../../../TitanOpenGLKit_osx/lib/
+mv ../include/gtest ../../../TitanOpenGLKit_osx/include/
+
+--- Windows ---
+No notes at this time
