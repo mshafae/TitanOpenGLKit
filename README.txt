@@ -1,7 +1,7 @@
 
 CSUF OpenGL Kit
 
-1/18/2014
+1/18/2015
 
 The purpose of this kit is to provide a student with all the
 libraries needed to perform computer graphics course work
@@ -37,8 +37,6 @@ as LDFLAGS, CPPFLAGS, CXXFLAGS, etc.
 
 This kit includes the following libraries:
 
-freeglut-2.8.1.tar.gz
-http://freeglut.sourceforge.net/
 FreeImage3154.zip
 http://freeimage.sourceforge.net/
 glew-1.10.0.tgz
@@ -51,7 +49,9 @@ glm-0.9.5.1.zip
 http://glm.g-truc.net/
 redbook.zip
 http://www.opengl.org/archives/resources/code/samples/redbook.zip
+gtest-1.7.0.zip
+https://code.google.com/p/googletest/
 
 The kit was built with either:
-OS X 10.8.5 with Xcode 5
+OS X 10.10 with Xcode 6
 Windows 7 with MS VS 10 (Win32, Debug)
