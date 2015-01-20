@@ -5,5 +5,12 @@ patch -p 1 < ../../patches/glew_1_11_0.patch
 make 
 make install
 
+# Or change build process to build static glewinfo and visualinfo
+
+install_name_tool -change /usr/lib/libGLEW.1.11.0.dylib @executable_path/../lib/libGLEW.1.11.dylib visualinfo
+
+install_name_tool -change /usr/lib/libGLEW.1.11.0.dylib @executable_path/../lib/libGLEW.1.11.dylib glewinfo
+
+
 --- Windows ---
 No notes at this time
