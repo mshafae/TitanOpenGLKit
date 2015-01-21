@@ -11,4 +11,8 @@ cp -r include/GLFW ../../TitanOpenGLKit_osx/include/
 
 -- Windows --
 
-No notes at the moment
+Use CMake to generate VS2010 solution file
+builds cleanly.
+mv src/Debug/glfw3.lib ../../../TitanOpenGLKit_win/lib
+mv include/GLFW/* ../../TitanOpenGLKit_win/include/GLFW
+

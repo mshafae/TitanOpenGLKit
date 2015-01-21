@@ -10,4 +10,12 @@ mv *.a ../../../TitanOpenGLKit_osx/lib/
 mv ../include/gtest ../../../TitanOpenGLKit_osx/include/
 
 --- Windows ---
-No notes at this time
+Used cygwin to build
+unpack
+mkdir build
+cd build
+cmake ${GTESTDIR}
+make
+mv *.a ../../../TitanOpenGLKit_osx/lib/
+mv ../include/gtest ../../../TitanOpenGLKit_osx/include/
+

@@ -7,4 +7,8 @@ and then
 make install
 
 --- Windows ---
-No notes at this time
+Using cygwin cmake
+
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/home/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_win . && make all
+
+make install

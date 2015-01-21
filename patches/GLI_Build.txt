@@ -7,4 +7,7 @@ and then
 mv gli ../../TitanOpenGLKit_osx/include/
 
 --- Windows ---
-No notes at this time
+Using cygwin to build
+cmake -DCMAKE_INSTALL_PREFIX:PATH=/home/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_win . && make all
+
+mv gli ../../TitanOpenGLKit_win/include/
