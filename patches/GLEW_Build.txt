@@ -13,4 +13,11 @@ install_name_tool -change /usr/lib/libGLEW.1.11.0.dylib @executable_path/../lib/
 
 
 --- Windows ---
-No notes at this time
+Build platform: VS 2010
+In build there is a solution file for VC6, VC10, and VC12. Use VC10 for VS 2010.
+Should cleanly build.
+mv bin/Debug/Win32/*.exe ../../TitanOpenGLKit_win/bin
+mv bin/Debug/Win32/*.dll ../../TitanOpenGLKit_win/lib
+mv lib/Debug/Win32/*.lib ../../TitanOpenGLKit_win/lib
+mv include/GL/*.h ../../TitanOpenGLKit_win/include/GL
+

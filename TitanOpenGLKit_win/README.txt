@@ -1,7 +1,7 @@
 
 CSUF OpenGL Kit
 
-1/18/2014
+1/20/2015
 
 The purpose of this kit is to provide a student with all the
 libraries needed to perform computer graphics course work

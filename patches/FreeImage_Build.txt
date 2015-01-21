@@ -5,4 +5,10 @@ patch -p1  < ../FreeImage3160.patch
 LibJXR has been entirely disabled for Apple Builds
 
 --- Win32 Build ---
-No notes as of now
+VS 2010 Pro build platform
+archive ships with VS 2008 solution FreeImage.2008.sln; import solution
+into 2010.
+Should build cleanly with some warnings.
+cd Dist && mv *.dll *.lib ../../../TitanOpenGLKit_win/lib && \
+mv *.h ../../../TitanOpenGLKit_win/include
+

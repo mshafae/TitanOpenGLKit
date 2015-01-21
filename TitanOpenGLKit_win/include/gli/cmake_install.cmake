@@ -1,8 +1,8 @@
-# Install script for directory: C:/cygwin64/home/mshafae/tmpspace/openglkit/win_build/gli-0.5.1.0/gli
+# Install script for directory: /home/mshafae/github/TitanOpenGLKit/win_build/gli-0.5.1.1/gli
 
 # Set the install prefix
 IF(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  SET(CMAKE_INSTALL_PREFIX "C:/Program Files (x86)/gli")
+  SET(CMAKE_INSTALL_PREFIX "/home/mshafae/github/TitanOpenGLKit_win")
 ENDIF(NOT DEFINED CMAKE_INSTALL_PREFIX)
 STRING(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -12,7 +12,7 @@ IF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
     STRING(REGEX REPLACE "^[^A-Za-z0-9_]+" ""
            CMAKE_INSTALL_CONFIG_NAME "${BUILD_TYPE}")
   ELSE(BUILD_TYPE)
-    SET(CMAKE_INSTALL_CONFIG_NAME "Release")
+    SET(CMAKE_INSTALL_CONFIG_NAME "")
   ENDIF(BUILD_TYPE)
   MESSAGE(STATUS "Install configuration: \"${CMAKE_INSTALL_CONFIG_NAME}\"")
 ENDIF(NOT DEFINED CMAKE_INSTALL_CONFIG_NAME)
