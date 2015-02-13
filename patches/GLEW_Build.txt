@@ -11,6 +11,9 @@ install_name_tool -change /usr/lib/libGLEW.1.11.0.dylib @executable_path/../lib/
 
 install_name_tool -change /usr/lib/libGLEW.1.11.0.dylib @executable_path/../lib/libGLEW.1.11.dylib glewinfo
 
+cc -I ../include -L ../../../TitanOpenGLKit_osx/lib glewinfo.c -lglew -framework OpenGL -framework AGL -o glewinfo
+
+cc -I ../include -L ../../../TitanOpenGLKit_osx/lib visualinfo.c -lglew -framework OpenGL -framework AGL -o visualinfo
 
 --- Windows ---
 Build platform: VS 2010
