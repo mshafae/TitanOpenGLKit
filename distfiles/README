@@ -1,3 +1,6 @@
+OpenCTM
+http://openctm.sourceforge.net/
+
 [425] [21:05]mshafae@kamenka% setenv CFLAGS "-I/opt/local/include -L/opt/local/lib -I/Users/mshafae/tmpspace/openglkit/osx/include -L/Users/mshafae/tmpspace/openglkit/osx/lib"
 [426] [21:06]mshafae@kamenka% setenv LDFLAGS "-L/opt/local/lib -L/Users/mshafae/tmpspace/openglkit/osx/lib"
 
