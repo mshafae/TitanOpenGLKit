@@ -7,8 +7,8 @@ diff -rupN glew-1.11.0/Makefile glew-1.11.0_patched/Makefile
  
 -GLEW_PREFIX ?= /usr
 -GLEW_DEST ?= /usr
-+GLEW_PREFIX ?= /Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx
-+GLEW_DEST ?= /Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx
++GLEW_PREFIX = /Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx
++GLEW_DEST = /Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx
  BINDIR    ?= $(GLEW_DEST)/bin
  LIBDIR    ?= $(GLEW_DEST)/lib
  INCDIR    ?= $(GLEW_DEST)/include/GL

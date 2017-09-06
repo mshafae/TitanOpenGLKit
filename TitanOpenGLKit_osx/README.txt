@@ -37,8 +37,6 @@ as LDFLAGS, CPPFLAGS, CXXFLAGS, etc.
 
 This kit includes the following libraries:
 
-freeglut-2.8.1.tar.gz
-http://freeglut.sourceforge.net/
 FreeImage3154.zip
 http://freeimage.sourceforge.net/
 glew-1.10.0.tgz
