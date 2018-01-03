@@ -47,7 +47,7 @@ glfw-3.0.4.zip
 http://www.glfw.org
 gli-0.5.1.0.zip
 http://sourceforge.net/projects/ogl-image/
-glm-0.9.5.1.zip
+glm-0.9.5.8.zip
 http://glm.g-truc.net/
 redbook.zip
 http://www.opengl.org/archives/resources/code/samples/redbook.zip
