@@ -1,32 +1,3 @@
-///////////////////////////////////////////////////////////////////////////////////
-/// OpenGL Image (gli.g-truc.net)
-///
-/// Copyright (c) 2008 - 2013 G-Truc Creation (www.g-truc.net)
-/// Permission is hereby granted, free of charge, to any person obtaining a copy
-/// of this software and associated documentation files (the "Software"), to deal
-/// in the Software without restriction, including without limitation the rights
-/// to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-/// copies of the Software, and to permit persons to whom the Software is
-/// furnished to do so, subject to the following conditions:
-/// 
-/// The above copyright notice and this permission notice shall be included in
-/// all copies or substantial portions of the Software.
-/// 
-/// THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-/// IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-/// FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-/// AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-/// LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-/// OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
-/// THE SOFTWARE.
-///
-/// @ref core
-/// @file gli/core/header.hpp
-/// @date 2012-10-18 / 2012-10-18
-/// @author Christophe Riccio
-///////////////////////////////////////////////////////////////////////////////////
-
-namespace gli
-{
-
-}//namespace gli
+version https://git-lfs.github.com/spec/v1
+oid sha256:9c9b242455b9ba5ee48655e7c2e9e78aec50a7cc6631b80877b237d75e1c16eb
+size 1539

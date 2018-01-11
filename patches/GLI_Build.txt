@@ -1,13 +1,3 @@
---- Apple ---
-
-cmake -DCMAKE_INSTALL_PREFIX:PATH=/Users/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_osx . && make all
-
-and then
-
-mv gli ../../TitanOpenGLKit_osx/include/
-
---- Windows ---
-Using cygwin to build
-cmake -DCMAKE_INSTALL_PREFIX:PATH=/home/mshafae/github/TitanOpenGLKit/TitanOpenGLKit_win . && make all
-
-mv gli ../../TitanOpenGLKit_win/include/
+version https://git-lfs.github.com/spec/v1
+oid sha256:0c7cffbbd7ac9066ceae8b39bceb0b5aa8944ba7974f5ebbf94b6c404d8bacf2
+size 355

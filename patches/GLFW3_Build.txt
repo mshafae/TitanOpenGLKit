@@ -1,18 +1,3 @@
-
--- Apple --
-
-cmake -G "Xcode"
-open xcode project
-build
-
-cp ./src/Debug/libglfw3.a ../../TitanOpenGLKit_osx/lib/
-cp -r include/GLFW ../../TitanOpenGLKit_osx/include/
-
-
--- Windows --
-
-Use CMake to generate VS2010 solution file
-builds cleanly.
-mv src/Debug/glfw3.lib ../../../TitanOpenGLKit_win/lib
-mv include/GLFW/* ../../TitanOpenGLKit_win/include/GLFW
-
+version https://git-lfs.github.com/spec/v1
+oid sha256:e1442b68c5f48dfb126164f2bfc204c45834dbec3da2966c38be3056c6b43b6c
+size 354
